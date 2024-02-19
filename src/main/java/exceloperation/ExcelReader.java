@@ -9,7 +9,7 @@ import java.io.IOException;
 public class ExcelReader {
     public static void main(String[] args) {
         // Path to the Excel file
-        String filePath = "output.xlsx";
+        String filePath = "example.xlsx";
 
         try {
             // Create a FileInputStream to read the Excel file

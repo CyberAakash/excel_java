@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class ExcelDataWriter {
     public static void main(String[] args) {
         // Path to the Excel file
-        String filePath = "example2.xlsx";
+        String filePath = "example.xlsx";
 
         Scanner scanner = new Scanner(System.in);
 

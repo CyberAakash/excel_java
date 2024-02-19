@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edb3214d-4e26-4669-bd56-a0f955c86f2e" name="Changes" comment="excel operation">
-      <change afterPath="$PROJECT_DIR$/output.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceloperation/ExcelDuplicateFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceloperation/ExcelRecordUpdater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceloperation/ExcelSheetMerger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableName_12022024_125200.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/excel/ExcelCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destination/example_copy.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/destination/example_copy.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/example.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceloperation/ExcelCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceloperation/ExcelCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceloperation/ExcelDataWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceloperation/ExcelDataWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/exceloperation/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceloperation/ExcelReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,33 +40,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.ExcelColumnDataPrinter.executor": "Run",
-    "Application.ExcelCreator.executor": "Run",
-    "Application.ExcelDataDeleter.executor": "Run",
-    "Application.ExcelDataWriter.executor": "Run",
-    "Application.ExcelDuplicateFinder.executor": "Run",
-    "Application.ExcelReader.executor": "Run",
-    "Application.ExcelReaderByReg.executor": "Run",
-    "Application.ExcelRecordUpdater.executor": "Run",
-    "Application.ExcelSheetCopier.executor": "Run",
-    "Application.ExcelSheetMerger.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/aakashvnthgmail.com/Documents/IntelliJ/Programs/Excel",
-    "onboarding.tips.debug.path": "/Users/aakashvnthgmail.com/Documents/IntelliJ/Programs/Excel/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.ExcelColumnDataPrinter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExcelCreator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExcelDataDeleter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExcelDataWriter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExcelDuplicateFinder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExcelReader.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExcelReaderByReg.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExcelRecordUpdater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExcelSheetCopier.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExcelSheetMerger.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aakashvnthgmail.com/Documents/IntelliJ/Programs/Excel&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/aakashvnthgmail.com/Documents/IntelliJ/Programs/Excel/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,8 +92,27 @@
       <option name="project" value="LOCAL" />
       <updated>1707209316147</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="excel operation">
+      <option name="closed" value="true" />
+      <created>1707212880912</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707212880912</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
